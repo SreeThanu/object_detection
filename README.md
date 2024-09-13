@@ -45,10 +45,16 @@ ResNet Architecture: ResNet is incorporated for its ability to maintain high acc
 Feature Extraction: ResNet improves the model's ability to learn robust feature representations, contributing to better object detection accuracy.
 
 
+
+
+
 Dataset
 
 
 This project uses the PASCAL VOC 2007 dataset for training and testing. The dataset contains annotated images across 20 different object classes. The VOCdevkit provides the tools for training, testing, and evaluating the object detection model.
+
+
+
 
 
 
@@ -73,6 +79,10 @@ OpenCV
 PASCAL VOC 2007
 
 
+
+
+
+
 Training Details
 
 
@@ -83,6 +93,10 @@ Learning Rate Scheduling: A custom learning rate scheduler dynamically adjusts t
 
 
 Early Stopping: The model halts training if there is no improvement in validation loss.
+
+
+
+
 
 
 Results
